@@ -14,27 +14,19 @@ Definir la clase Artista:
 * Atributos: id:, nombre, discoMasVendido, ventasTotales, etc.
 Métodos: Constructor que inicialice todos los atributos, getters y setters para cada atributo, toString() Método para imprimir la información del artista.
 
-
 Definir la clase Disco:
 
-
-Atributos: artista,, titulo, ventasTotales, etc.
+* Atributos: artista,, titulo, ventasTotales, etc.
 Métodos: Constructor que inicialice todos los atributos,método para registrar las ventas del disco, método para mostrar los detalles del disco, etc.
 
+* Calcular el artista con más discos vendidos:
 
-Calcular el artista con más discos vendidos:
+* Implementar un método que recorra todos los discos registrados y determine qué artista tiene más unidades vendidas en total.
 
+* Filtrar y mostrar discos con más de x unidades vendidas:
 
-Implementar un método que recorra todos los discos registrados y determine qué artista tiene más unidades vendidas en total.
+* Usar operaciones de Stream para filtrar los discos que hayan superado las 100,000 unidades vendidas y mostrar los detalles de esos discos.
 
+* Actualizar las estadísticas de ventas de un disco después de cada venta:
 
-Filtrar y mostrar discos con más de x unidades vendidas:
-
-
-Usar operaciones de Stream para filtrar los discos que hayan superado las 100,000 unidades vendidas y mostrar los detalles de esos discos.
-
-
-Actualizar las estadísticas de ventas de un disco después de cada venta:
-
-
-Implementar un método que, después de registrar una venta, actualice las estadísticas de ventas del disco en la clase Disco y también actualice las estadísticas del artista relacionado en la clase Artista.
+* Implementar un método que, después de registrar una venta, actualice las estadísticas de ventas del disco en la clase Disco y también actualice las estadísticas del artista relacionado en la clase Artista.
